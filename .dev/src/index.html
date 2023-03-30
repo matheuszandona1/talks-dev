@@ -182,19 +182,29 @@
 						<section class="section" id="GettingStarted">
 							<div style="margin-top: 6rem">
 
-								<div data-aos="fade-left" data-aos-offset="300" data-aos-duration="300">
+								<div style="margin-bottom:60px ;" data-aos="fade-left" data-aos-offset="300" data-aos-duration="300">
 									<!-- sect1 -->
 									<h2 class="heading">Pelo Começo!</h2>
 									<div class="text-editor">
 										<code>
-                        <span class="orange" id="click-button"><h1>Isso é um HTML qualquer</h1></span>
+											&lt;h1 <span class="orange active">class</span>="
+											<span class="green" id="inettext">titulo </span>"&gt;<br>
+											<span class="orange" id="color-h1">
+												&nbsp;&nbsp;Isso é um HTML qualquer
+											</span>
+											<br>
+											&lt;/h1&gt;
                       </code>
 									</div>
-									<p style="font-weight: lighter;">
-										Simples, puro, sem muito frufru por enquanto!
+									<p
+										style="font-weight: normal; margin-top: 10px; font-family: Menlo,Monaco,Consolas,'Courier New', monospace;">
+										Simples, puro, sem muito frufru por enquanto!<br>
+										Uma tag sem estilização em HTML é uma marcação que define um elemento de conteúdo sem atribuir
+										nenhum estilo ou formatação a ele. Geralmente, essas tags são usadas para estruturar o conteúdo da
+										página da web.
 									</p>
 								</div>
-								<div data-aos="fade-left" data-aos-offset="300" data-aos-duration="300">
+								<div style="margin:60px auto;" data-aos="fade-left" data-aos-offset="300" data-aos-duration="300">
 									<!-- sect3 -->
 									<h3 class="heading" id="Speed">O básico do CSS</h3>
 									<div class="text-editor" id="color-button">
@@ -203,24 +213,36 @@
                         <span class="degrade" id="color">&nbsp;&nbsp;I’m slow and smooth</span><br>
                         &lt;/div&gt;
                       </code>
-									</div>
-								</div>
 
-								<div data-aos="fade-left" data-aos-offset="300" data-aos-duration="300">
+									</div>
+									<p style="margin-top: 10px; font-family: Menlo,Monaco,Consolas,'Courier New', monospace;">
+										CSS é uma linguagem de estilo para definir a aparência de documentos web, permitindo a definição de
+										estilos e layouts para elementos. Ele trabalha com HTML para criar páginas web visualmente
+										atraentes e interativas.
+									</p>
+
+								</div>
+								<div style="margin:60px auto;" data-aos="fade-left" data-aos-offset="300" data-aos-duration="300">
 									<!-- sect2 -->
 									<h3 class="heading">O básico do Javascript</h3>
 									<div class="text-editor">
 										<code>
-                        <span class="orange active">var</span> titulo = <span class="green">document.getElementById("click-button");</span> <br> <span class="white">titulo</span>.addEventListener("click", function() {
+                        <span class="orange active">var</span> titulo = <span class="green">document.getElementById("color-h1");</span> <br> <span class="white">titulo</span>.addEventListener("click", function() {
 													<span class="white">
 														titulo</span>.classList.toggle<span class="orange active">("active")</span>;
 												});
                       </code>
 									</div>
+									<p style="margin-top: 10px; font-family: Menlo,Monaco,Consolas,'Courier New', monospace;">
+										JavaScript é uma linguagem de programação de alto nível que é usada principalmente para criar
+										interatividade em páginas web. Ele permite a criação de funcionalidades dinâmicas, validação de
+										formulários e manipulação de eventos do usuário, tornando as páginas web mais responsivas e
+										interativas.
+									</p>
 								</div>
-								<div data-aos="fade-left" data-aos-offset="300" data-aos-duration="300">
+								<div style="margin:60px auto;" data-aos="fade-left" data-aos-offset="300" data-aos-duration="300">
 									<!-- sect2 -->
-									<h3 class="heading" id="Centering">O básico do JavaScript</h3>
+									<h3 class="heading" id="Centering">Um pouco mais de JavaScript</h3>
 									<div class="text-editor">
 										<code>
 											<p id="myText">Esse é o Talks Dev</p>
@@ -228,8 +250,11 @@
 											
                     	</code>
 									</div>
+									<p style="font-family: Menlo,Monaco,Consolas,'Courier New', monospace; margin: 10px auto;">
+										Aqui podemos ver um exemplo de reposição de texto ao clicar em um botão, aqui fazemos uso de HTML
+										para a estrutura, CSS para a cor do texto e JavaScript para repor o texto.</p>
 								</div>
-								<div data-aos="fade-left" data-aos-offset="300" data-aos-duration="300">
+								<div style="margin:60px auto;" data-aos="fade-left" data-aos-offset="300" data-aos-duration="300">
 									<!-- sect2 -->
 									<h3 class="heading" id="#maisjava">Mais JavaScript</h3>
 									<div class="text-editor">
@@ -237,8 +262,18 @@
 												<p > &nbsp;<span id="element"></span></p>
                     	</code>
 									</div>
+									<p style="font-family: Menlo,Monaco,Consolas,'Courier New', monospace; margin: 10px auto;">
+										Nesse exemplo fazemos uso de uma ferramenta muito utilizada no desenvolvimento de um site, uma API.
+										essa API possibilita a reescrita de frases pré estabelecidas no JavaScript.
+										<br>
+										Uma API basicamente é um conjunto de informações ou de códigos para obter informações ou pra
+										simplesmente não ser necessário criar.
+										<br>
+										O uso de API para escrita de código é como se fosse um atalho, ao invés de escrever várias linhas de
+										código, a API ajuda com 3, 4 palavras e torna totalmente funcional.
+									</p>
 								</div>
-								<div data-aos="fade-left" data-aos-offset="300" data-aos-duration="300">
+								<div style="margin:60px auto;" data-aos="fade-left" data-aos-offset="300" data-aos-duration="300">
 									<!-- sect2 -->
 									<h3 class="heading" id="last-one">Combinando os três <span id="javascript"></span></h3>
 									<div class="text-editor">
@@ -248,6 +283,20 @@
 												<ul id="taskList"></ul>
                     	</code>
 									</div>
+									<p style="font-family: Menlo,Monaco,Consolas,'Courier New', monospace; margin: 10px auto;">
+										Aqui temos um exemplo muito mais comum no dia-a-dia.
+										<br>
+										Certamente já fizemos uma lista para o mercado, ou até mesmo para tarefas que precisavamos fazer.
+										<br>
+										O Exemplo acima é uma <kbd>to-do list</kbd>
+										<br>
+										Ele serve para adicionarmos, excluirmos ou até mesmo editarmos os itens que foram inseridos.
+										<br>
+										Se você não usa ou nunca fez uma lista como eu citei previamente, cito como exemplo o
+										<kbd>ClickUp</kbd> que usamos todos os dias, de forma simplificada, as tarefas abertas no
+										<kbd>ClickUp</kbd> são nada mais do que uma <kbd>to-do list</kbd> muito mais complexa, porém com o
+										mesmo fundamento
+									</p>
 								</div>
 							</div>
 						</section>
@@ -279,9 +328,19 @@
 
 
 
-		$("#click-button").click(function () {
+		$("#color-h1").click(function () {
 			$(this).toggleClass("active")
-		})
+			var greenSpan = $("#inettext");
+
+			// verifica se o texto "texto-laranja" já foi adicionado
+			if (greenSpan.text().indexOf("texto-laranja") === -1) {
+				// adiciona o texto "texto-laranja" ao elemento com a classe "green"
+				greenSpan.append(" texto-laranja");
+			} else {
+				// remove o texto "texto-laranja" do elemento com a classe "green"
+				greenSpan.text(greenSpan.text().replace(" texto-laranja", ""));
+			}
+		});
 
 		$("#color").click(function () {
 			$(this).toggleClass("active")
